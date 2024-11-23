@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Task 3</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>This paragraph one <br><br> This paragraph Two </td>
+                <td><h2>This is iframe</h2><iframe src="https://ar.wikipedia.org/wiki/%D9%84%D9%8A%D9%88%D9%86%D9%8A%D9%84_%D9%85%D9%8A%D8%B3%D9%8A"></iframe></td>
+            </tr>
+            <tr>
+                <td colspan="3"><audio src="./1 Minute Timer with Music [ELECTRIC] ⚡.mp3" controls></audio></td>
+            </tr>
+        </table>
+        <form action="THX_Page.html">
+            <label for="FirstName">First Name</label><br>
+            <input id="FirstName" type="text" name="First Name" required placeholder="Write Your First Name"><br><br>
+            <label for="LastName">Last Name</label><br>
+            <input id="LastName" type="text" name="Last Name" required placeholder="Write Your Last Name"><br><br>
+            <label for="Pass">Password</label><br>
+            <input id="Pass" type="password" name="Password" required minlength="5" placeholder="Write Your Password"><br><br>
+            <label for="RPass">Repeat Password</label><br>
+            <input id="RPass" type="password" name="RPassword" required minlength="5" placeholder="Write Your Password Again"><br><br>
+            <label for="Picture">Your Picture</label><br>
+            <input id="Picture" type="file" name="Picture" accept=".png,.jpg"><br><br>
+            <label>Gender</label><br>
+            <input id="Male" type="radio" name="Gender">
+            <label for="Male">Male</label> <br>
+            <input id="Female" type="radio" name="Gender">
+            <label for="female">female</label><br><br>
+            <label>Faculty</label><br>
+            <input list="Faculty" name="Faculty">
+            <datalist id="Faculty">
+                <option value="Computers & Information">
+                <option value="Engineering">
+                <option value="Medical">
+            </datalist><br><br>
+            <label>Interests</label><br>
+            <input id="Programming" type="checkbox" name="Programming" checked>
+            <label for="Programming">Programming</label>
+            <input id="Reading" type="checkbox" name="Reading">
+            <label for="Reading">Reading</label>
+            <input id="Programming" type="checkbox" name="Programming">
+            <label for="Programming">Programming</label><br><br>
+            <label>Comment</label><br>
+            <textarea name="Comment"></textarea><br>
+            <input type="submit" value="submit" onclick="window.location.href='THX_Page.html'">
+            <input type="reset">
+        </form>
+    </body>
+</html>
